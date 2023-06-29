@@ -1,22 +1,31 @@
-.longe-bordas{
-    background-color: #FFA6A9;
-  }
-  
-  .afastado{
-    background-color: #77C0ED;
-  }
-  .alto{
-    background-color: #C3E887;
-  }
-  
-  .largo{
+.longe-bordas {
+  background-color: #FFA6A9;
+  padding: 20px;
+}
+
+.afastado {
+  background-color: #77C0ED;
+  margin: 10px;
+}
+
+.alto {
+  background-color: #C3E887;
+  height: 300px;
+  display: inline;
+}
+
+.largo {
   background-color: #FFE396;
-  }
-  
-  .bordado{
-    background-color: #AF9BCC;
-  }
-  
-  .sumido{
-   
-  }
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.bordado {
+  background-color: #AF9BCC;
+  border: 1px black dashed;
+}
+
+.sumido {
+  display: none;
+}
